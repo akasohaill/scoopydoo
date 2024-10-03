@@ -11,7 +11,7 @@ npm install
 Run the application: Start the development server with:
 npm run dev
 
-This will open the application in your default web browser at http://localhost:3000.
+This will open the application in your default web browser at http://localhost:5173.
 
 Dependencies
 The following dependencies are used in this project:
