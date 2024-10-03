@@ -1,0 +1,122 @@
+/* Default styles for desktop */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.main-bg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.main-bg img {
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.main-bg h2 {
+    position: absolute;
+    padding: 20px;
+    font-size: 45px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-bg p {
+    position: absolute;
+    bottom: 150px;
+    padding: 20px;
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+.more-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    background: url('../../assets/bg.avif');
+}
+
+.side-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.side-img img {
+    width: 300px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+/* Tablet view: Adjust layout for screens between 768px and 1024px */
+@media screen and (max-width: 1024px) {
+    .main-bg img {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .main-bg h2 {
+        font-size: 35px;
+        padding: 15px;
+    }
+
+    .main-bg p {
+        font-size: 25px;
+        bottom: 100px;
+    }
+
+    .more-img {
+        gap: 30px;
+    }
+
+    .side-img {
+        width: 280px;
+        height: 240px;
+    }
+
+    .side-img img {
+        width: 250px;
+        height: 220px;
+    }
+}
+
+/* Mobile view: Adjust layout for screens below 768px */
+@media screen and (max-width: 768px) {
+    .landing-page {
+        height: auto;
+    }
+
+    .main-bg img {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .main-bg h2 {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .main-bg p {
+        display: none;
+    }
+
+    .more-img {
+        display: none;
+    }
+}
