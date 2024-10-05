@@ -29,6 +29,7 @@ Footer: Includes a footer with links and copyright information.
 Code Structure
 The project is structured as follows:
 
+Folder Structure:-
 
 scooby.com/
 ├── public/
