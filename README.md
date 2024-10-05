@@ -1,7 +1,7 @@
 # Scooby.com App
 
 ## Overview
-The Dog Breeds App is a user-friendly web application that allows users to explore various dog breeds, view their details, and search for specific breeds. The app provides an interactive interface where users can click on a breed to see detailed information, including images, weights, heights, and more. 
+The Dog Breeds App is a user-friendly web application that allows users to explore various dog breeds, and view their details for specific breeds. The app provides an interactive interface where users can click on a breed to see detailed information, including images, weights, heights, and more. 
 
 ## Setup Instructions
 
