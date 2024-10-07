@@ -26,23 +26,6 @@ Dog Breed List: Displays a list of dog breeds with images.
 Detailed View: Click on a breed to view detailed information about it.
 Responsive Design: The app is designed to be responsive and user-friendly on both mobile and tablet devices.
 Footer: Includes a footer with links and copyright information.
-Code Structure
-The project is structured as follows:
-
-Folder Structure:-
-
-scooby.com/
-├── public/
-│   ├── index.html          # Main HTML file
-│   └── assets/             # Static assets (images, etc.)
-├── src/
-│   ├── components/         # Reusable components (NavBar, Footer, etc.)
-│   ├── screens/            # Main screens/views (ListView, DetailsView)
-│   ├── App.js              # Main application component
-│   ├── index.js            # Entry point for the application
-│   └── styles.css          # Global styles
-├── package.json             # Project metadata and dependencies
-└── README.md                # Project documentation
 
 
 Key Files:
